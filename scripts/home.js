@@ -1,4 +1,4 @@
-console.log("test")
+
 let index = 0;
 
 document.addEventListener('DOMContentLoaded', () => {
