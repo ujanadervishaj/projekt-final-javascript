@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     currentBookId = parseInt(urlParams.get('id'));
 
     if (!currentBookId) {
-        window.location.href = '../htmls/home.html';
+        window.location.href = '../htmls/index.html';
         return;
     }
 
@@ -17,7 +17,7 @@ function displayBookDetails() {
     const book = getBookById(currentBookId);
 
     if (!book) {
-        window.location.href = '../htmls/home.html';
+        window.location.href = '../htmls/index.html';
         return;
     }
 

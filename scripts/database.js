@@ -311,7 +311,7 @@ class UserManager {
     redirectIfNotAdmin() {
         if (!this.isUserAdmin()) {
             alert("You don't have permission to access this page. Admin access required.");
-            window.location.href = "../htmls/home.html";
+            window.location.href = "../htmls/index.html";
             return false;
         }
         return true;

@@ -174,7 +174,7 @@ function updateUserIcon() {
             </a>
             <div class="user-menu">
                 <p>${userName}</p>
-                <button onclick="userManager.logout(); window.location.href='home.html';">Logout</button>
+                <button onclick="userManager.logout(); window.location.href='index.html';">Logout</button>
             </div>
         `;
     } else {

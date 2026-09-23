@@ -9,7 +9,7 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
     if (result.success) {
         showNotification('Login successful! Redirecting...', 'success');
         setTimeout(() => {
-            window.location.href = '../htmls/home.html';
+            window.location.href = '../htmls/index.html';
         }, 1500);
     } else {
         showNotification(result.message, 'error');
