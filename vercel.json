@@ -1,12 +1,4 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "routes": [
-    {
-      "src": "/",
-      "dest": "/html/index.html"
-    },
-    {
-      "handle": "filesystem"
-    }
-  ]
+  "outputDirectory": "html"
 }
