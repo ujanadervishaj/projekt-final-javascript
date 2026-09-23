@@ -21,7 +21,7 @@ document.getElementById('signupForm').addEventListener('submit', (e) => {
     if (result.success) {
         showNotification('Account created successfully! Redirecting to login...', 'success');
         setTimeout(() => {
-            window.location.href = '../htmls/login.html';
+            window.location.href = '/html/login.html';
         }, 1500);
     } else {
         showNotification(result.message, 'error');

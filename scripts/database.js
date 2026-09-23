@@ -302,7 +302,7 @@ class UserManager {
 
     redirectIfNotLoggedIn() {
         if (!this.isUserLoggedIn()) {
-            window.location.href = "../htmls/login.html";
+            window.location.href = "/html/login.html";
             return false;
         }
         return true;
@@ -311,7 +311,7 @@ class UserManager {
     redirectIfNotAdmin() {
         if (!this.isUserAdmin()) {
             alert("You don't have permission to access this page. Admin access required.");
-            window.location.href = "../htmls/index.html";
+            window.location.href = "/html/index.html";
             return false;
         }
         return true;

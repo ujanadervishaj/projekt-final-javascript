@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     currentBookId = parseInt(urlParams.get('id'));
 
     if (!currentBookId) {
-        window.location.href = '../htmls/index.html';
+        window.location.href = '/html/index.html';
         return;
     }
 
@@ -17,7 +17,7 @@ function displayBookDetails() {
     const book = getBookById(currentBookId);
 
     if (!book) {
-        window.location.href = '../htmls/index.html';
+        window.location.href = '/html/index.html';
         return;
     }
 
@@ -55,7 +55,7 @@ function addToLibraryQuick() {
     if (!userManager.isUserLoggedIn()) {
         showNotification('Please log in first', 'error');
         setTimeout(() => {
-            window.location.href = '../htmls/login.html';
+            window.location.href = '/html/login.html';
         }, 1500);
         return;
     }
@@ -88,7 +88,7 @@ function saveToLibraryWithDetails() {
     if (!userManager.isUserLoggedIn()) {
         showNotification('Please log in first', 'error');
         setTimeout(() => {
-            window.location.href = '../htmls/login.html';
+            window.location.href = '/html/login.html';
         }, 1500);
         return;
     }
