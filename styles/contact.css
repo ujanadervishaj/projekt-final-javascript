@@ -411,7 +411,7 @@ select {
 .first .one .imgg {
   width: 45%;
   height: 90%;
-  background-image: url("../assets/pexels-cottonbro-4855455.jpg");
+  background-image: url("/assets/pexels-cottonbro-4855455.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -455,7 +455,7 @@ select {
 .first .two .imgg {
   width: 43%;
   height: 73%;
-  background-image: url("../assets/pexels-ashar-mirza-2148003869-33703389.jpg");
+  background-image: url("/assets/pexels-ashar-mirza-2148003869-33703389.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -501,7 +501,7 @@ select {
 .first .three .imgg {
   width: 43%;
   height: 73%;
-  background-image: url("../assets/pexels-celine-3776818-35285385.jpg");
+  background-image: url("/assets/pexels-celine-3776818-35285385.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -552,7 +552,7 @@ select {
 .seventh-s .second .img3 {
   background-image:
     linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/card3.png");
+    url("/assets/card3.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -643,7 +643,7 @@ select {
 .third .one .imgg {
   width: 43%;
   height: 73%;
-  background-image: url("../assets/pexels-kate-l-2149358429-31024471.jpg");
+  background-image: url("/assets/pexels-kate-l-2149358429-31024471.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -687,7 +687,7 @@ select {
 .third .two .imgg {
   width: 43%;
   height: 73%;
-  background-image: url("../assets/pexels-vlada-karpovich-6802973.jpg");
+  background-image: url("/assets/pexels-vlada-karpovich-6802973.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -733,7 +733,7 @@ select {
 .third .three .imgg {
   width: 43%;
   height: 73%;
-  background-image: url("../assets/pexels-martabranco-23656142.jpg");
+  background-image: url("/assets/pexels-martabranco-23656142.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

@@ -7,7 +7,7 @@ const booksDatabase = [
         genre: "Fantasy",
         pages: 336,
         rating: 4,
-        image: "../assets/book1.jpg",
+        image: "/assets/book1.jpg",
         description: "In a world where villains are the heroes, one assistant discovers there's more to her boss than meets the eye.",
         status: "Available"
     },
@@ -19,7 +19,7 @@ const booksDatabase = [
         genre: "Fantasy",
         pages: 512,
         rating: 5,
-        image: "../assets/book2.jpg",
+        image: "/assets/book2.jpg",
         description: "The thrilling return to the world of Eragon with Murtagh's epic tale.",
         status: "Available"
     },
@@ -31,7 +31,7 @@ const booksDatabase = [
         genre: "Educational",
         pages: 128,
         rating: 4,
-        image: "../assets/book3.jpg",
+        image: "/assets/book3.jpg",
         description: "A fun exploration of why things work the way they do.",
         status: "Available"
     },
@@ -43,7 +43,7 @@ const booksDatabase = [
         genre: "Humor",
         pages: 217,
         rating: 5,
-        image: "../assets/book4.jpg",
+        image: "/assets/book4.jpg",
         description: "The hilarious misadventures of middle school life.",
         status: "Available"
     },
@@ -55,7 +55,7 @@ const booksDatabase = [
         genre: "Fantasy",
         pages: 304,
         rating: 5,
-        image: "../assets/book5.jpg",
+        image: "/assets/book5.jpg",
         description: "A new adventure in Rick Riordan's world with darker themes.",
         status: "Available"
     },
@@ -67,7 +67,7 @@ const booksDatabase = [
         genre: "Horror",
         pages: 400,
         rating: 4,
-        image: "../assets/book6.jpg",
+        image: "/assets/book6.jpg",
         description: "A dark and mysterious tale that will keep you up at night.",
         status: "Available"
     },
@@ -79,7 +79,7 @@ const booksDatabase = [
         genre: "Thriller",
         pages: 350,
         rating: 5,
-        image: "../assets/book7.jpg",
+        image: "/assets/book7.jpg",
         description: "An intense thriller filled with shocking revelations.",
         status: "Available"
     },
