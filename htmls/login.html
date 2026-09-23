@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../styles/login.css">
+    <script src="../scripts/database.js" defer></script>
+    <script src="../scripts/login.js" defer></script>
+    <link rel="stylesheet" href="../styles/chatbot.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="auth-header">
+                <h1>Welcome Back</h1>
+                <p>Sign in to your BookStore account</p>
+            </div>
+
+            <form class="auth-form" id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        placeholder="Enter your email" 
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        placeholder="Enter your password" 
+                        required
+                    >
+                </div>
+
+                <button type="submit" class="btn-submit">Sign In</button>
+            </form>
+
+            <div class="auth-footer">
+                <p>Don't have an account? <a href="signup.html">Create one here</a></p>
+                <p><a href="home.html" class="back-link">← Back to Home</a></p>
+            </div>
+
+          
+        </div>
+    </div>
+
+    <div class="notification" id="notification"></div>
+
+  <div class="bs-mobile-nav" id="bsMobileNav">
+    <div class="bs-mobile-nav-inner">
+      <button class="bs-nav-close" id="bsNavClose" aria-label="Close menu">✕</button>
+      <ul>
+        <li><a href="../htmls/home.html">Home</a></li>
+        <li><a href="../htmls/mylibrary.html">My Library</a></li>
+        <li><a href="../htmls/add-book.html">Add a Book</a></li>
+        <li><a href="../htmls/contact.html">Contact</a></li>
+        <li><a href="../htmls/about.html">About Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    
+    (function(){
+      var ham = document.querySelector('.bs-hamburger');
+      var nav = document.getElementById('bsMobileNav');
+      var close = document.getElementById('bsNavClose');
+      if(ham && nav) {
+        ham.addEventListener('click', function(){ nav.classList.add('bs-nav-open'); });
+      }
+      if(close && nav) {
+        close.addEventListener('click', function(){ nav.classList.remove('bs-nav-open'); });
+      }
+      if(nav) {
+        nav.addEventListener('click', function(e){
+          if(e.target === nav) nav.classList.remove('bs-nav-open');
+        });
+      }
+    })();
+  </script>
+    <script src="../scripts/chatbot.js" defer></script>
+</body>
+</html>
